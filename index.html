@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>MetaYasi - Enjoy in Digital</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220808230408">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<!-- General container -->
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__inner">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<div class="header__logo">
+							<a href="#" class="logo">
+								<svg width="187" height="20" viewBox="0 0 187 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M46.0604 10.1513C46.0604 11.4902 44.975 12.5755 43.6362 12.5755C42.2973 12.5755 41.2119 11.4902 41.2119 10.1513C41.2119 8.81242 42.2973 7.72705 43.6362 7.72705C44.975 7.72705 46.0604 8.81242 46.0604 10.1513ZM94.0149 10.1513C94.0149 11.4902 92.9296 12.5755 91.5907 12.5755C90.2518 12.5755 89.1665 11.4902 89.1665 10.1513C89.1665 8.81242 90.2518 7.72705 91.5907 7.72705C92.9296 7.72705 94.0149 8.81242 94.0149 10.1513ZM141.591 12.5755C142.93 12.5755 144.015 11.4902 144.015 10.1513C144.015 8.81242 142.93 7.72705 141.591 7.72705C140.252 7.72705 139.166 8.81242 139.166 10.1513C139.166 11.4902 140.252 12.5755 141.591 12.5755Z" fill="#00D4FF" />
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M7.87879 0C3.52745 0 0 3.52745 0 7.87879V20H3.63636V7.87879C3.63636 5.53576 5.53576 3.63636 7.87879 3.63636C10.2218 3.63636 12.1212 5.53576 12.1212 7.87879V20H15.7576V7.87879C15.7576 5.53576 17.657 3.63636 20 3.63636C22.343 3.63636 24.2424 5.53576 24.2424 7.87879V20H27.8788V7.87879C27.8788 3.52745 24.3513 0 20 0C17.5631 0 15.3846 1.10634 13.9394 2.84415C12.4942 1.10634 10.3157 0 7.87879 0ZM80.6818 10.9091C80.6818 4.88417 85.566 0 91.5909 0C97.6158 0 102.5 4.88417 102.5 10.9091V20H98.8636V10.9091C98.8636 6.89247 95.6075 3.63636 91.5909 3.63636C87.5743 3.63636 84.3182 6.89247 84.3182 10.9091V20H80.6818V10.9091ZM141.591 0C135.566 0 130.682 4.88417 130.682 10.9091V20H134.318V10.9091C134.318 6.89247 137.574 3.63636 141.591 3.63636C145.608 3.63636 148.864 6.89247 148.864 10.9091V20H152.5V10.9091C152.5 4.88417 147.616 0 141.591 0ZM33.1061 10.1515C33.1061 4.71235 37.5154 0.30303 42.9545 0.30303H52.0555V3.93939H42.9545C39.5237 3.93939 36.7424 6.72066 36.7424 10.1515C36.7424 13.5824 39.5237 16.3636 42.9545 16.3636H52.0555V20H42.9545C37.5154 20 33.1061 15.5907 33.1061 10.1515ZM65.6061 3.93939V20H69.2424V3.93939H76.5152V0.30303L58.3333 0.30303V3.93939L65.6061 3.93939ZM183.258 0.30303L186.894 0.30303V20H183.258V0.30303ZM118.485 10.9059C120.663 10.5323 122.69 9.49344 124.273 7.90978C124.906 7.27759 125.451 6.57468 125.902 5.81969L124.471 4.96504L125.902 5.81969C126.89 4.16589 127.424 2.26203 127.424 0.30303H124.091C124.091 1.65491 123.722 2.96882 123.04 4.11038C122.729 4.63132 122.353 5.11635 121.916 5.55276C120.524 6.94508 118.636 7.72727 116.667 7.72727C114.698 7.72727 112.809 6.94508 111.417 5.55276C110.981 5.11635 110.604 4.63133 110.293 4.11038C109.611 2.96882 109.242 1.65491 109.242 0.303032L105.909 0.303032C105.909 2.26203 106.443 4.16589 107.431 5.8197C107.882 6.57468 108.428 7.27759 109.06 7.90979C110.644 9.49344 112.67 10.5323 114.848 10.9059V20H118.485V10.9059ZM157.576 6.13636C157.576 2.9147 160.187 0.30303 163.409 0.30303H175.303V3.93939H163.409C162.196 3.93939 161.212 4.92301 161.212 6.13636C161.212 7.34972 162.196 8.33333 163.409 8.33333H165.232H170.632H171.288C174.51 8.33333 177.121 10.945 177.121 14.1667C177.121 17.3883 174.51 20 171.288 20H159.394V16.3636H171.288C172.501 16.3636 173.485 15.38 173.485 14.1667C173.485 12.9533 172.501 11.9697 171.288 11.9697H170.632H165.232H163.409C160.187 11.9697 157.576 9.35802 157.576 6.13636Z" fill="url(#paint0_linear_4_129)" />
+									<defs>
+										<linearGradient id="paint0_linear_4_129" x1="93.447" y1="0" x2="93.447" y2="20" gradientUnits="userSpaceOnUse">
+											<stop stop-color="white" />
+											<stop offset="1" stop-color="#ECF6F8" stop-opacity="0.85" />
+										</linearGradient>
+									</defs>
+								</svg>
+
+							</a>
+						</div>
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".intro" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".principles" class="menu__link">Team leaders</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".crypto" class="menu__link">Digital soluitions</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".projects" class="menu__link">Projects</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".contact" class="menu__link">Contact us</a></li>
+						</ul>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- General main container -->
+		<main class="page">
+			<!-- Intro section (first block) -->
+			<section class="intro">
+				<div class="intro__container">
+					<div class="intro__inner _anim-items">
+						<h1 class="intro__title">
+							We are a web 3.0 company, exploring <span>big ideas</span> and creating
+							<span>universal economies</span> in the digital world
+						</h1>
+						<a href="#" class="button intro__button">Talk to us</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- About section (second block) -->
+			<section class="about">
+				<div class="about__container">
+					<div class="about__inner">
+						<!-- About title -->
+						<h2 class="about__title _anim-items">
+							Our company is focused on producing and investing in digital projects, digital assets and
+							metaverses
+						</h2>
+						<div class="about__descriptions">
+							<p class="text about__text _anim-items">
+								We are going to attract investments for our projects using the modern digital
+								technologies based on blockchain
+							</p>
+							<p class="text about__text _anim-items">
+								We handle the entire product development process from initial requirements to launch and
+								operation
+							</p>
+						</div>
+						<!-- List of features -->
+						<div class="about__list">
+							<!-- Start swiper slider -->
+							<div class="about__slider swiper">
+								<!-- Swiper slider container -->
+								<div class="about__wrapper swiper-wrapper">
+									<!-- Swiper slider slide -->
+									<div class="about__slide swiper-slide _anim-items">
+										<div class="about__item">
+											<!-- Feature black text -->
+											<p class="about__feature">
+												Experince
+											</p>
+											<!-- Feature white amount -->
+											<p class="about__amount">
+												7
+											</p>
+											<!-- Feature black text -->
+											<p class="about__feature">
+												years
+											</p>
+										</div>
+									</div>
+									<div class="about__slide swiper-slide _anim-items">
+										<div class="about__item">
+											<!-- Feature black text -->
+											<p class="about__feature">
+												Team
+											</p>
+											<!-- Feature white amount -->
+											<p class="about__amount">
+												80
+											</p>
+										</div>
+									</div>
+									<div class="about__slide swiper-slide _anim-items">
+										<div class="about__item">
+											<!-- Feature black text -->
+											<p class="about__feature">
+												Projects
+											</p>
+											<!-- Feature white amount -->
+											<p class="about__amount">
+												92
+											</p>
+										</div>
+									</div>
+									<div class="about__slide swiper-slide _anim-items">
+										<div class="about__item">
+											<!-- Feature black text -->
+											<p class="about__feature">
+												Offices
+											</p>
+											<!-- Feature white amount -->
+											<p class="about__amount">
+												5
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Our Principles section (third block (after about/before team leaders)) -->
+			<section class="principles">
+				<div class="principles__container">
+					<div class="principles__inner">
+						<h2 class="title principles__title _anim-items">
+							Our Principles
+						</h2>
+						<div class="principles__list">
+							<div class="principles__item _anim-items">
+								<!-- Title of principles item(Blue text) -->
+								<h3 class="principles__principle">
+									Flexibility
+								</h3>
+								<!-- Description of principle -->
+								<p class="text principles__text">
+									We propose several solution options, which makes it possible to look at any idea
+									from different angles
+								</p>
+							</div>
+							<div class="principles__item _anim-items">
+								<!-- Title of principles item(Blue text) -->
+								<h3 class="principles__principle">
+									Product approach
+								</h3>
+								<!-- Description of principle -->
+								<p class="text principles__text">
+									We use the product approach in project development of varying complexity
+								</p>
+							</div>
+							<div class="principles__item _anim-items">
+								<!-- Title of principles item(Blue text) -->
+								<h3 class="principles__principle">
+									Timeliness
+								</h3>
+								<!-- Description of principle -->
+								<p class="text principles__text">
+									100% of our projects were launched on time
+								</p>
+							</div>
+							<div class="principles__item _anim-items">
+								<!-- Title of principles item(Blue text) -->
+								<h3 class="principles__principle">
+									Team's composition
+								</h3>
+								<!-- Description of principle -->
+								<p class="text principles__text">
+									Highly professional specialists with a great background in projects of digital and
+									technologies
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Team Leaders (fourth block	) -->
+			<section class="team">
+				<div class="team__container">
+					<div class="team__inner">
+						<h2 class="title team__title _anim-items">
+							Team Leaders
+						</h2>
+						<div class="team__list">
+							<div class="team__slider swiper">
+								<div class="team__wrapper swiper-wrapper">
+									<div class="team__slide swiper-slide _anim-items">
+										<div class="team__item">
+											<div class="team__img">
+												<picture><source srcset="img/team/team1.webp" type="image/webp"><img src="img/team/team1.jpg" alt="Employe photo"></picture>
+											</div>
+											<h3 class="team__name">
+												Mohamed Hamdan Al Falahi
+											</h3>
+											<p class="text team__text">
+												Chairman
+											</p>
+										</div>
+									</div>
+									<div class="team__slide swiper-slide _anim-items">
+										<div class="team__item">
+											<div class="team__img">
+												<picture><source srcset="img/team/team2.webp" type="image/webp"><img src="img/team/team2.jpg" alt="Employe photo"></picture>
+											</div>
+											<h3 class="team__name">
+												Mohamed Obaid Ahmed Al Zaabi
+											</h3>
+											<p class="text team__text">
+												Vice-Chairman
+											</p>
+										</div>
+									</div>
+									<div class="team__slide swiper-slide _anim-items">
+										<div class="team__item">
+											<div class="team__img">
+												<picture><source srcset="img/team/team3.webp" type="image/webp"><img src="img/team/team3.jpg" alt="Employe photo"></picture>
+											</div>
+											<h3 class="team__name">
+												Alexey <br> Shestakov
+											</h3>
+											<p class="text team__text">
+												CEO
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Crypto Projects -->
+			<section class="crypto">
+				<div class="crypto__container">
+					<div class="crypto__inner">
+						<h2 class="title crypto__title _anim-items">
+							Crypto projects
+						</h2>
+						<div class="crypto__list">
+							<div class="crypto__slider swiper">
+								<div class="crypto__wrapper swiper-wrapper">
+									<div class="crypto__slide swiper-slide _anim-items">
+										<div class="crypto__item icon-item">
+											<div class="crypto__icon icon-circle crypto__icon-exchanges">
+
+											</div>
+											<p class="text">
+												Exchanges
+											</p>
+										</div>
+									</div>
+									<div class="crypto__slide swiper-slide _anim-items">
+										<div class="crypto__item icon-item">
+											<div class="crypto__icon icon-circle crypto__icon-market">
+
+											</div>
+											<p class="text">
+												Marketplaces
+											</p>
+										</div>
+									</div>
+									<div class="crypto__slide swiper-slide _anim-items">
+										<div class="crypto__item icon-item">
+											<div class="crypto__icon icon-circle crypto__icon-tokens">
+
+											</div>
+											<p class="text">
+												Tokens
+											</p>
+										</div>
+									</div>
+									<div class="crypto__slide swiper-slide _anim-items">
+										<div class="crypto__item icon-item">
+											<div class="crypto__icon icon-circle crypto__icon-dao">
+
+											</div>
+											<p class="text">
+												DAO-platforms
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="crypto__descritions icon-item icon-item_purple">
+							<p class="crypto__text item icon-text _anim-items">
+								A full cycle of blockchain software development with a deep understanding of the
+								principles of decentralized database operations as well as cryptography.
+							</p>
+							<p class="crypto__text item  icon-text icon-text_blue _anim-items">
+								We come up with revolutionary solutions in blockchain projects.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Virual reality -->
+			<section class="virtual">
+				<div class="virtual__container">
+					<div class="virtual__inner">
+						<h2 class="title virtual__title _anim-items">
+							Virtual reality
+						</h2>
+						<div class="virtual__slider swiper">
+							<div class="virtual__wrapper swiper-wrapper">
+								<div class="virtual__slide swiper-slide _anim-items">
+									<div class="icon-item icon-item_purple">
+										<div class="icon-circle icon-circle-meta">
+
+										</div>
+										<p class="text text_white">
+											Metaverses
+										</p>
+									</div>
+								</div>
+								<div class="virtual__slide swiper-slide _anim-items">
+									<div class="icon-item icon-item_purple">
+										<div class="icon-circle icon-circle-3d">
+
+										</div>
+										<p class="text text_white">
+											3D applications
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="icon-descriptions virtual__icon-descriptions">
+								<p class="icon-text icon-text_white virtual__text _anim-items">
+									Best practices in computer graphics, graphics units and graphic data processing
+									allow us to convert the most incredible and abstract ideas into real 3D apps
+								</p>
+								<p class="icon-text icon-text_blue virtual__text _anim-items">
+									Our teams overcome all challenges in 3D developing with all the latest, cutting-edge
+									technologies
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Data Systems -->
+			<section class="data">
+				<div class="data__container">
+					<div class="data__inner">
+						<h2 class="title data__title _anim-items">
+							Data Systems
+						</h2>
+						<div class="data__slider swiper">
+							<div class="data__wrapper swiper-wrapper">
+								<div class="data__slide swiper-slide _anim-items">
+									<div class="icon-item ">
+										<div class="icon-circle icon-circle-soft">
+
+										</div>
+										<p class="text">
+											Software
+										</p>
+									</div>
+								</div>
+								<div class="data__slide swiper-slide _anim-items">
+									<div class="icon-item ">
+										<div class="icon-circle icon-circle-apps">
+
+										</div>
+										<p class="text">
+											Apps
+										</p>
+									</div>
+								</div>
+								<div class="data__slide swiper-slide _anim-items">
+									<div class="icon-item ">
+										<div class="icon-circle icon-circle-is">
+
+										</div>
+										<p class="text">
+											Information systems
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="icon-descriptions">
+							<p class="icon-text data__text _anim-items">
+								One of our key competencies — design and management of complex IT solutions and Internet
+								projects
+							</p>
+							<p class="icon-text data__text icon-text_blue _anim-items">
+								We provide analysis, design of technical architecture and development of software
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Projects -->
+			<section class="projects">
+				<div class="projects__container">
+					<div class="projects__inner">
+						<h2 class="title projects__title _anim-items">
+							Projects
+						</h2>
+						<!-- Slider -->
+						<div class="projects__slides _anim-items">
+							<div class="projects__slider swiper">
+								<!-- Moving part of slider -->
+								<div class="projects__wrapper swiper-wrapper">
+									<!-- Slide -->
+									<div class="projects__slide swiper-slide">
+										<div class="projects__item">
+											<div class="projects__img">
+												<picture><source srcset="img/projects/orica.webp" type="image/webp"><img src="img/projects/orica.jpg" alt="Orica"></picture>
+											</div>
+											<div class="projects__text">
+												<h3 class="projects__name">
+													Orica
+												</h3>
+												<p class="text">
+													The artist-LED, ethical NFT platform and creator community
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- Slide -->
+									<div class="projects__slide swiper-slide">
+										<div class="projects__item">
+											<div class="projects__img">
+												<picture><source srcset="img/projects/punkcats.webp" type="image/webp"><img src="img/projects/punkcats.jpg" alt="Punkcats"></picture>
+											</div>
+											<div class="projects__text">
+												<h3 class="projects__name">
+													Punkcats
+												</h3>
+												<p class="text">
+													NFT market place where you can buy a couple of fluffy cats and then
+													breed your own funny cat family
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- Slide -->
+									<div class="projects__slide swiper-slide">
+										<div class="projects__item">
+											<div class="projects__img">
+												<picture><source srcset="img/projects/digicol.webp" type="image/webp"><img src="img/projects/digicol.jpg" alt="Digicol"></picture>
+											</div>
+											<div class="projects__text">
+												<h3 class="projects__name">
+													DigiCol
+												</h3>
+												<p class="text">
+													NFT marketplace. Create your own tokenized digital artworks with no
+													coding required to be collected in a liquid NFT marketplace
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- Slide -->
+									<div class="projects__slide swiper-slide">
+										<div class="projects__item">
+											<div class="projects__img">
+												<picture><source srcset="img/projects/rpgc.webp" type="image/webp"><img src="img/projects/rpgc.jpg" alt="Orica"></picture>
+											</div>
+											<div class="projects__text">
+												<h3 class="projects__name">
+													RPGC Token
+												</h3>
+												<p class="text">
+													Crypto-exchange. Our goal is to develop the ecosystem in a way that
+													will open new worlds for gamers
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Pagination-->
+							</div>
+							<div class="swiper-pagination _anim-items"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Callback -->
+			<section class="callback">
+				<div class="callback__container">
+					<div class="callback__inner">
+						<h2 class="title callback__title _anim-items">
+							Share your idea and we will unlock its <span>full potential</span> together
+						</h2>
+						<form action="" class="callback__form" method="POST">
+							<fieldset>
+								<input autocomplete type="text" name="form[]" placeholder="Your name" class="input _anim-items">
+								<input autocomplete type="text" name="form[]" data-error="Ошибка" placeholder="telegram, phone ore email" class="input _anim-items">
+								<textarea name="comments" placeholder="Comments" class="input _anim-items"></textarea>
+							</fieldset>
+							<button type="submit" class="button _anim-items">
+								Send
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact -->
+			<section class="contact">
+				<div class="contact__container">
+					<div class="contact__inner">
+						<h2 class="title contact__title _anim-items">
+							Contact us
+						</h2>
+						<div class="contact__data">
+							<div class="contact__phone _anim-items">
+								<p class="text contact__text">
+									Phone
+								</p>
+								<a href="tel:+971503244041" class="accent-link">+971 50 3244041</a>
+							</div>
+							<div class="contact__mail _anim-items">
+								<p class="text contact__text">
+									Email
+								</p>
+								<a href="mailto:info@metayasi.io" class="accent-link">info@metayasi.io</a>
+							</div>
+							<div class="contact__location _anim-items">
+								<p class="text contact__text">
+									Location
+								</p>
+								<address class="contact__address"><a href="https://goo.gl/maps/k61D1UxiZj35gUCg6" target="_blank">Gold Tower, 1st Al Khail street Jumeira Lake Towers, Dubai,
+										United Arab Emirates</a></address>
+							</div>
+						</div>
+						<div class="contact__socials">
+							<h3 class="contact__subtitle _anim-items">
+								Be a part of our community
+							</h3>
+							<ul class="socials__list">
+								<li class="socials__item _anim-items">
+									<a href="#" class="socials__link">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 23.9861 5.851 30.6053 13.5 31.8056V20.625H9.4375V16H13.5V12.475C13.5 8.465 15.8887 6.25 19.5434 6.25C21.294 6.25 23.125 6.5625 23.125 6.5625V10.5H21.1074C19.1199 10.5 18.5 11.7333 18.5 12.9986V16H22.9375L22.2281 20.625H18.5V31.8056C26.1491 30.6053 32 23.9861 32 16Z" fill="#8E99A9" />
+										</svg>
+									</a>
+								</li>
+								<li class="socials__item _anim-items">
+									<a href="#" class="socials__link">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="#8E99A9" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8946 9.833C21.2499 9.09993 20.3311 8.63287 19.3143 8.61595C17.3621 8.58346 15.7792 10.2331 15.7792 12.3004C15.7792 12.5938 15.8104 12.8799 15.8707 13.1546C12.9327 12.964 10.3279 11.4341 8.58437 9.12794C8.28008 9.68055 8.1057 10.3264 8.1057 11.0183C8.1057 12.3281 8.7298 13.4905 9.67835 14.1768C9.09888 14.1513 8.55379 13.9758 8.07718 13.6881C8.07684 13.7038 8.07684 13.7195 8.07684 13.7355C8.07684 15.5647 9.2954 17.0991 10.9126 17.4566C10.616 17.5406 10.3037 17.5846 9.98127 17.5825C9.75348 17.581 9.53198 17.5557 9.31616 17.5104C9.76597 19.0104 11.0715 20.105 12.6184 20.1412C11.4086 21.1455 9.88435 21.7437 8.22804 21.7402C7.9427 21.7397 7.66132 21.7212 7.38477 21.6857C8.94923 22.7592 10.8074 23.3842 12.8038 23.3847C19.306 23.3864 22.8619 17.7278 22.8619 12.8197C22.8619 12.6587 22.8583 12.4985 22.8516 12.3391C23.5423 11.8244 24.1416 11.1792 24.6155 10.4423C23.9816 10.7281 23.3002 10.9179 22.5852 10.9975C23.315 10.5483 23.8756 9.82948 24.1395 8.96743C23.4564 9.38169 22.6999 9.67877 21.8946 9.833Z" fill="white" />
+										</svg>
+									</a>
+								</li>
+								<li class="socials__item _anim-items">
+									<a href="#" class="socials__link">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M16 0C7.163 0 0 7.163 0 16C0 24.836 7.163 32 16 32C24.837 32 32 24.836 32 16C32 7.163 24.837 0 16 0Z" fill="#8E99A9" />
+											<path d="M24.2938 22.9419V16.8049C24.2938 13.5169 22.5388 11.9869 20.1978 11.9869C18.3088 11.9869 17.4628 13.0259 16.9918 13.7549V12.2379H13.4338C13.4808 13.2429 13.4338 22.9419 13.4338 22.9419H16.9918V16.9639C16.9918 16.6449 17.0148 16.3249 17.1088 16.0969C17.3658 15.4579 17.9508 14.7959 18.9338 14.7959C20.2218 14.7959 20.7368 15.7769 20.7368 17.2159V22.9429L24.2938 22.9419ZM9.6848 10.7769C10.9248 10.7769 11.6978 9.95388 11.6978 8.92688C11.6748 7.87688 10.9248 7.07788 9.7078 7.07788C8.4908 7.07788 7.6958 7.87688 7.6958 8.92688C7.6958 9.95488 8.4678 10.7769 9.6628 10.7769H9.6848ZM11.4638 22.9419V12.2379H7.9068V22.9419H11.4638Z" fill="white" />
+										</svg>
+									</a>
+								</li>
+								<li class="socials__item _anim-items">
+									<a href="#" class="socials__link">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="#8E99A9" />
+											<path d="M23.2752 10.5438C23.2752 10.5438 21.1939 8.9126 18.7314 8.7251L18.5127 9.16885C20.7377 9.7126 21.7564 10.4938 22.8252 11.4501C20.9877 10.5126 19.1689 9.63135 16.0064 9.63135C12.8439 9.63135 11.0252 10.5126 9.18769 11.4501C10.2564 10.4938 11.4689 9.6251 13.5002 9.16885L13.2814 8.7251C10.7002 8.96885 8.73769 10.5438 8.73769 10.5438C8.73769 10.5438 6.4127 13.9188 6.0127 20.5438C8.35644 23.2501 11.9189 23.2688 11.9189 23.2688L12.6627 22.2751C11.4002 21.8376 9.96894 21.0501 8.73769 19.6313C10.2064 20.7438 12.4314 21.9063 16.0127 21.9063C19.5939 21.9063 21.8127 20.7501 23.2877 19.6313C22.0564 21.0501 20.6252 21.8376 19.3627 22.2751L20.1064 23.2688C20.1064 23.2688 23.6689 23.2501 26.0127 20.5438C25.6002 13.9188 23.2752 10.5438 23.2752 10.5438ZM13.0439 18.7251C12.1627 18.7251 11.4502 17.9126 11.4502 16.9063C11.4502 15.9001 12.1627 15.0876 13.0439 15.0876C13.9252 15.0876 14.6377 15.9001 14.6377 16.9063C14.6377 17.9126 13.9252 18.7251 13.0439 18.7251ZM18.9564 18.7251C18.0752 18.7251 17.3627 17.9126 17.3627 16.9063C17.3627 15.9001 18.0752 15.0876 18.9564 15.0876C19.8377 15.0876 20.5502 15.9001 20.5502 16.9063C20.5502 17.9126 19.8314 18.7251 18.9564 18.7251Z" fill="white" />
+										</svg>
+									</a>
+								</li>
+								<li class="socials__item _anim-items">
+									<a href="#" class="socials__link">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M15.8696 18.9916C17.4501 18.9916 18.7313 17.7103 18.7313 16.1298C18.7313 14.5493 17.4501 13.2681 15.8696 13.2681C14.2891 13.2681 13.0078 14.5493 13.0078 16.1298C13.0078 17.7103 14.2891 18.9916 15.8696 18.9916Z" fill="#8E99A9" />
+											<path d="M19.4467 9.10547H12.2923C11.2517 9.10547 10.3411 9.43067 9.75577 10.016C9.17041 10.6014 8.84521 11.5119 8.84521 12.5526V19.707C8.84521 20.7476 9.17041 21.6581 9.82081 22.3085C10.4712 22.8939 11.3167 23.2191 12.3574 23.2191H19.4467C20.4873 23.2191 21.3979 22.8939 21.9832 22.3085C22.6336 21.7232 22.9588 20.8126 22.9588 19.772V12.6176C22.9588 11.577 22.6336 10.7315 22.0483 10.0811C21.3979 9.43067 20.5524 9.10547 19.4467 9.10547ZM15.8695 20.5525C13.398 20.5525 11.4468 18.5362 11.4468 16.1298C11.4468 13.6583 13.463 11.7071 15.8695 11.7071C18.276 11.7071 20.3573 13.6583 20.3573 16.1298C20.3573 18.6013 18.341 20.5525 15.8695 20.5525ZM20.4873 12.5526C19.902 12.5526 19.4467 12.0973 19.4467 11.5119C19.4467 10.9266 19.902 10.4713 20.4873 10.4713C21.0727 10.4713 21.528 10.9266 21.528 11.5119C21.528 12.0973 21.0727 12.5526 20.4873 12.5526Z" fill="#8E99A9" />
+											<path d="M15.9998 0C7.15437 0 0 7.15437 0 15.9998C0 24.8452 7.15437 31.9996 15.9998 31.9996C24.8452 31.9996 31.9996 24.8452 31.9996 15.9998C32.0646 7.15437 24.8452 0 15.9998 0ZM24.52 19.7721C24.52 21.268 23.9997 22.5688 23.0891 23.4794C22.1786 24.3899 20.8778 24.8452 19.4469 24.8452H12.3576C10.9267 24.8452 9.62589 24.3899 8.71533 23.4794C7.73973 22.5688 7.28445 21.268 7.28445 19.7721V12.6177C7.28445 9.62589 9.30069 7.54461 12.3576 7.54461H19.5119C21.0078 7.54461 22.2436 8.06493 23.1542 8.97549C24.0647 9.88604 24.52 11.1218 24.52 12.6177V19.7721Z" fill="#8E99A9" />
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__inner">
+					<h2 class="footer__title">Powered by MetaYasi</h2>
+					<div class="more-projects">
+						<div class="more-projects__item">
+							<div class="more-projects__img">
+								<img src="img/footer/dd.svg" alt="DD cryptocurrency">
+							</div>
+							<div>
+								<p class="more-projects__name">DD cryptocurrency</p>
+								<a href="https://ddirham.io/" class="more-projects__link accent-link">ddirham.io</a>
+							</div>
+						</div>
+						<div class="more-projects__item">
+							<div class="more-projects__img">
+								<img src="img/footer/yaisex.svg" alt="Yasiex">
+							</div>
+							<div>
+								<p class="more-projects__name">Yasiex</p>
+								<a href="#" class="more-projects__link accent-link">ysiex.io</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<p class="footer__copy">Copyright © 2022 MetaYasi. All Rights Reserved</p>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="№" class="footer__link">Terms of use</a></li>
+							<li class="footer__item"><a href="№" class="footer__link">AML Policy</a></li>
+							<li class="footer__item"><a href="№" class="footer__link">Privacy Policy</a></li>
+							<li class="footer__item"><a href="№" class="footer__link">Cookie Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220808230408"></script>
+</body>
+
+</html>
